@@ -2,11 +2,9 @@
     <?php
     $this->load->view('header');
 ?>
-<br><br><br><br><br>
-</head>
-<body>
+
   <div class="text-center">
-<h1>Editar vídeos </h1>
+<h1> Manipulação de GIF </h1>
 
 <p>
   <a  data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img name="adc" src="<?php base_url() ?>assets/img/adc.png" alt=""></a>
@@ -21,9 +19,19 @@
       <form action="<?php echo base_url('salva') ?>" method="post" enctype="multipart/form-data">
       <fieldset class="adc">
       <label for=""><strong>Adicionar Vídeo:</strong></label><br>
-               
-        <input type="file" name="arquivo" id="">
-        <input type="submit" value="Enviar"><br><br>
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+               <!-- ainda tem q associar video, palavra, significado e usuario -->
+        <input type="file" name="arquivo" id="" required><br>
+        <label for="">Nome do GIF: </label><br>
+        <input type="text" name="palavra" required><br><br>
+        <label for="">Significado do nome GIF:</label><br>
+        <input type="text" name="sig" required><br><br>
+          <input type="submit" value="Enviar"><br><br>
         </form>
       <!-- remove video -->
         </fieldset>
@@ -36,7 +44,7 @@
       <form action="<?php echo base_url('removendo') ?>" method="post">
       <fieldset class="remove">
       <label for=""><strong>Selecione o vídeo que deseja remover:</strong></label><br>
-      <select name="escolharemocao">
+      <select name="escolharemocao" required>
         <?php foreach ($pega as $row) {?>
             <option value="<?php echo $row->id_video ?>"> <?php echo $row->nm_video ?> </option>
         <?php }  ?>

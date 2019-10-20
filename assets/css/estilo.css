@@ -20,9 +20,6 @@ font-size: 18px;
 
 }
 
-#logo{
-    width: 10px;
-}
 .menu li{
     
     border-right:1px solid #878787; 
@@ -35,27 +32,5 @@ background:#F7D3C5;
 color:#fff;  
 text-shadow:0px 0px 5px #fff; 
 }
-.aha{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: monospace;
-  
-}
 
-#area #cad{
-    background: #878787;
-    width: 645px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;  
-    align-items: center; 
-    justify-content: center; 
-    font-family: Georgia; 
-}
-
-#cad .cadform{
-    width: 655px;
-    
-}
 

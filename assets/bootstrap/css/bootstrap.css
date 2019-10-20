@@ -213,6 +213,11 @@ img {
   border-style: none;
 }
 
+.tra{
+  width: 350px;
+  height: 250px;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -3874,7 +3879,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -3971,7 +3976,7 @@ input[type="button"].btn-block {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0.5rem 1rem;
 }
 
@@ -3984,7 +3989,7 @@ input[type="button"].btn-block {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navbar-brand {
@@ -4075,8 +4080,8 @@ input[type="button"].btn-block {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
   }
   .navbar-expand-sm .navbar-nav {
     -ms-flex-direction: row;
@@ -4117,8 +4122,8 @@ input[type="button"].btn-block {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
   }
   .navbar-expand-md .navbar-nav {
     -ms-flex-direction: row;
@@ -4159,8 +4164,8 @@ input[type="button"].btn-block {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -4201,8 +4206,8 @@ input[type="button"].btn-block {
   .navbar-expand-xl {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
   }
   .navbar-expand-xl .navbar-nav {
     -ms-flex-direction: row;
@@ -4234,8 +4239,8 @@ input[type="button"].btn-block {
 .navbar-expand {
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
 }
 
 .navbar-expand > .container,
@@ -9032,3 +9037,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* duda */
+

@@ -4,7 +4,19 @@
     
     
     <form action="<?php echo base_url('logar') ?>" method="post">
-       
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION NO INDEX.PHP PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+       <!-- POR PRODUCTION PARA NÃO APARECER O ERRO EM CI -->
+
         <div class="text-center">
         <img src="assets/img/logo2.png" alt="" class="" width="200"><br>
         <label ><strong>Usuário:</strong></label><br>

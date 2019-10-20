@@ -49,7 +49,7 @@
  *
  *     development
  *     testing
- *     production
+ *     production ------ por esse aqui depois para não aparecer erro!
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
