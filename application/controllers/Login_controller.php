@@ -52,11 +52,13 @@ class Login_controller extends CI_Controller {
                }
 
             } else {
-                echo "Senha incorreta";
+                $msg = 'Senha incorreta';
+                $this->load->view('login', ['msg' => $msg]);
             }
             
         } else {
-            echo "Usuário inexistente";
+            $msg = 'Usuário inexistente';
+            $this->load->view('login', ['msg' => $msg]);
         }
         
         //echo $retorno['conf_user']->row()->existenciauser;

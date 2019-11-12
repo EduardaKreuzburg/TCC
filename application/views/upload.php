@@ -1,10 +1,10 @@
 
     <?php
     $this->load->view('header');
-?>
+?><br>
 
   <div class="text-center">
-<h1> Manipulação de GIF </h1>
+<h1> <em> Manipulação de GIF </em></h1>
 
 <p>
   <a  data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img name="adc" src="<?php base_url() ?>assets/img/adc.png" alt=""></a>
@@ -18,7 +18,7 @@
       <div class="card card-body">
       <form action="<?php echo base_url('salva') ?>" method="post" enctype="multipart/form-data">
       <fieldset class="adc">
-      <label for=""><strong>Adicionar Vídeo:</strong></label><br>
+      <label  class="tes" for=""><strong>Adicionar Vídeo:</strong></label><br>
                <!-- ainda tem q associar video, palavra, significado e usuario -->
                <!-- ainda tem q associar video, palavra, significado e usuario -->
                <!-- ainda tem q associar video, palavra, significado e usuario -->
@@ -26,7 +26,7 @@
                <!-- ainda tem q associar video, palavra, significado e usuario -->
                <!-- ainda tem q associar video, palavra, significado e usuario -->
                <!-- ainda tem q associar video, palavra, significado e usuario -->
-        <input type="file" name="arquivo" id="" required><br>
+        <input type="file" name="arquivo" id="" required><br><br>
         <label for="">Nome do GIF: </label><br>
         <input type="text" name="palavra" required><br><br>
         <label for="">Significado do nome GIF:</label><br>
@@ -43,7 +43,7 @@
       <div class="card card-body">
       <form action="<?php echo base_url('removendo') ?>" method="post">
       <fieldset class="remove">
-      <label for=""><strong>Selecione o vídeo que deseja remover:</strong></label><br>
+      <label class="tes" for=""><strong>Selecione o vídeo que deseja remover:</strong></label><br>
       <select name="escolharemocao" required>
         <?php foreach ($pega as $row) {?>
             <option value="<?php echo $row->id_video ?>"> <?php echo $row->nm_video ?> </option>

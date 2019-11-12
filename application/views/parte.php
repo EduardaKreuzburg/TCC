@@ -3,8 +3,8 @@
 ?>
 <br>
     <div class="text-center">
-        <h2 id="cadastro"><em> PREENCHA O FORMULÁRIO SE DESEJA SER ADMINISTRADOR DO LIBRATOR.
-    </div><br>
+        <h2 id="cadastro"><em> Preencha o formulário se deseja ser colaborador do Librator.</em> </h2>
+    </div>
     <?php 
         if (isset($msg)) {
             echo $msg;
@@ -14,13 +14,15 @@
     <tr>
 		<td colspan="2"><?php echo @$error; ?></td>
     </tr>
-    <div id="area">
+    <div class="area text-left">
     
-    <form id="cad" action="<?php echo base_url('cadastra') ?>" method="post">
+    <form  id="cad" action="<?php echo base_url('cadastra') ?>" method="post">
         
-        <fieldset>
+        <fieldset class="fs-d apenas_uma_margem"><br>
+        <div>
         <label for=""><strong> Seu nome:</strong></label>
         <input type="text" name="nome_user"><br><br>
+        
         <label><strong>Nome de usuário:</strong></label>
         <input type="text" name="user" id="" required>
         <label><strong>Senha:</strong></label>
@@ -28,12 +30,13 @@
         <label for=""><strong>Você sabe Libras?</strong></label>
         <input type="radio" name="sabe" value="Sim" required> SIM
         <input type="radio" name="sabe" value="Não" required> NÃO
-        <label for=""><strong>Fez algum curso?</strong></label>
+        <label for=""><strong> Fez algum curso?</strong></label>
         <input type="radio" name="curso" value="Sim" required> SIM
         <input type="radio" name="curso" value="Não" required> NÃO<br><br>
         <label for=""><strong>Explique em poucas palavras por que você quer fazer parte do Librator.</strong></label><br><br>
-        <textarea rows="8" cols="26" name="caixa" maxlength="150" required></textarea>
-        <input type="submit" name="bt_envio" data-toggle="modal" data-target="#exampleModalCenter" value="Enviar">
+        <textarea rows="8" cols="26" name="caixa" maxlength="150" required></textarea> <br>
+        <input type="submit" name="bt_envio" data-toggle="modal"  class="btn btn-default" data-target="#exampleModalCenter" value="Enviar"><br><br>
+        </div>
         </fieldset>
         
 
@@ -56,6 +59,7 @@
         </div>
         </div>
     </form>
+    
     </div>
     
 

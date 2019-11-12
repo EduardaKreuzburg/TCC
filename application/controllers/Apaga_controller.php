@@ -17,7 +17,7 @@ class Apaga_controller extends CI_Controller {
         $id = $this->input->post('escolharemocao');
         $this->am->removebd($id);
         
-        redirect(base_url('editar_video'));
+        redirect(base_url('manipulacao_gif'));
         
         
 

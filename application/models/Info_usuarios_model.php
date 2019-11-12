@@ -43,3 +43,17 @@ class Info_usuarios_model extends CI_Model {
         
     }
 }
+
+
+
+// SELECT * FROM tb_palavra_significado;
+
+// SELECT * FROM tb_video;
+
+// SELECT * FROM tb_usuario;
+
+// SELECT u.nnm_usuario, v.nm_video 
+// FROM tb_palavra_significado as ps, tb_video as v, tb_usuario as u
+// WHERE ps.idf_video = v.id_video AND
+// ps.idf_usuario = u.id_us
+// ORDER BY ps.idf_palavra ASC;

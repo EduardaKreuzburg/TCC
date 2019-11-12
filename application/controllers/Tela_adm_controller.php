@@ -32,3 +32,6 @@ class Tela_adm_controller extends CI_Controller {
 
   
 }
+
+
+

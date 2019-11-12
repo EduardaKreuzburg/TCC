@@ -40,10 +40,26 @@
     </form>
     </div>
     <div class="col-4">
-        <h2><em>Histórico dos usuários</em></h2>
-        </div>
+        <h2><em>Histórico dos usuários</em></h2><br> 
+            
+        <table  class="table table-hover table-light">
+            <tr>
+            <thead>
+                <th> Usuário </th>
+                <th> Vídeo </th>
+            </thead>
+            </tr>
+            <tr>
+                <td>Arthur.f</td>
+                <td>amor.gif</td>
+                <td> <button name="remover_usuario" value="">Remover Usuário</button> </td>
+                <td> <button name="remover_gif" value="">Remover GIF</button> </td>
+            </tr>
 
     </div>
+
+           
+
     </div>
 
 
