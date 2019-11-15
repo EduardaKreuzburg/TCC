@@ -6,7 +6,7 @@
       
     <div class="row justify-content-around">
         
-    <div class="col-4">
+    <div class="text-center">
     <form action="<?php  echo base_url('rota'); ?>" method="post">
     <h2 class="text-center"><em> Controle dos administradores</em></h2><br>  
         <table  class="table table-hover table-light">
@@ -30,8 +30,8 @@
                 <td><?php echo $row->sabe_libras; ?></td>
                 <td><?php echo $row->tem_curso; ?></td>
                 <td><?php echo $row->caixa; ?></td>
-                <td> <button name="Aceito" value="<?php echo $row->id_us; ?>">Aceitar</button> </td>
-                <td> <button name="Negado" value="<?php echo $row->id_us; ?>">Rejeitar</button> </td>
+                <td> <button name="Aceito" class="btn btn-outline-secondary" value="<?php echo $row->id_us; ?>">Aceitar</button> </td>
+                <td> <button name="Negado" class="btn btn-outline-danger" value="<?php echo $row->id_us; ?>">Rejeitar</button> </td>
             </tr>
         <?php } ?>
 
@@ -39,24 +39,7 @@
         
     </form>
     </div>
-    <div class="col-4">
-        <h2><em>Histórico dos usuários</em></h2><br> 
-            
-        <table  class="table table-hover table-light">
-            <tr>
-            <thead>
-                <th> Usuário </th>
-                <th> Vídeo </th>
-            </thead>
-            </tr>
-            <tr>
-                <td>Arthur.f</td>
-                <td>amor.gif</td>
-                <td> <button name="remover_usuario" value="">Remover Usuário</button> </td>
-                <td> <button name="remover_gif" value="">Remover GIF</button> </td>
-            </tr>
-
-    </div>
+   
 
            
 

@@ -14,10 +14,10 @@
             <img src="assets/video/noite.gif" width="250" alt=""><br>
             <p class="text-center"><strong>Noite</strong><p>
         </div>
-        <div class="text-center" style="margin: 20px;">
+        <!-- <div class="text-center" style="margin: 20px;">
             <img src="assets/video/bom.gif" width="250" alt=""><br>
-            <p class="text-center"><strong>Bom</strong></p>
-        </div>
+            <p class="text-center"><strong>Bom</strong></p> -->
+        <!-- </div> -->
         <div class="text-center" style="margin: 20px;">
             <img src="assets/video/posso.gif" width="250" class="center"><br>
             <p class="text-center"><strong>Posso</strong></p>
@@ -34,10 +34,10 @@
             <img src="assets/video/quero.gif" width="250" alt=""><br>
             <p class="text-center"><strong>Quero</strong></p>
         </div>
-        <div class="text-center" style="margin: 20px;">
+        <!-- <div class="text-center" style="margin: 20px;">
             <img src="assets/video/amor.gif"width="250"  alt=""><br>
             <p class="text-center"><strong>Amor</strong></p>
-        </div>
+        </div> -->
         <div class="text-center" style="margin: 20px;">
             <img src="assets/video/libras.gif"width="250"  alt=""><br>
             <p class="text-center"><strong>Libras</strong></p>

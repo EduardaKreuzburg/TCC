@@ -48,9 +48,9 @@
         <a href="<?php echo base_url(); ?>">
             <img src="assets/img/Librator.png" alt="" width="120" height="100" style="padding: 1px">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
     
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav nav_nd">

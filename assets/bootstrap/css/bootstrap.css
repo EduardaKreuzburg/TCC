@@ -9144,3 +9144,8 @@ left: 400px;
   width: 250px;
   margin-left: 635px;
 }
+
+.ajuste_upload{
+  /* background-color: #000 !important; */
+  padding: 0;
+}

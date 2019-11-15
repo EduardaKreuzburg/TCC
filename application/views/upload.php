@@ -38,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div class="col">
+  <div class="col ajuste_upload">
     <div class="collapse multi-collapse" id="multiCollapseExample2">
       <div class="card card-body">
       <form action="<?php echo base_url('removendo') ?>" method="post">
